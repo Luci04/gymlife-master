@@ -181,6 +181,24 @@ ol {
   content: "";
 }
 
+.primary-btn1 {
+  width: 250px;
+  height: 80px;
+  /* padding: 80px; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://leap.app/images/download_google.png);
+  display: inline-block;
+  font-size: 14px;
+  /* padding: 17px 30px 16px; */
+  color: #ffffff;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  content: "";
+}
+
 .primary-btn.btn-normal {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -1206,6 +1224,7 @@ ol {
 }
 
 .fs-about .fa-logo {
+  height: 50px;
   margin-bottom: 30px;
 }
 
@@ -1218,14 +1237,21 @@ ol {
   color: #c4c4c4;
 }
 
-.fs-about .fa-social a {
-  font-size: 14px;
+.fa-social {
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.fa-social div {
+  cursor: pointer;
+  font-size: 30px !important;
   color: #c4c4c4;
   margin-right: 10px;
 }
 
-.fs-about .fa-social a:last-child {
-  margin-right: 0;
+.fa-social div:hover {
+  color: #f36100;
 }
 
 .fs-widget {
